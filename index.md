@@ -37,13 +37,7 @@ Vault uses standard iOS file picker to import videos from the Files app — this
 
 ## Network usage
 
-Vault makes outbound HTTPS requests only to URLs you explicitly provide:
-
-- Direct video links you paste into the Downloads tab
-- URLs you load in the optional built-in browser (developer feature, hidden by default)
-- Video and poster URLs detected on pages you visit
-
-All network traffic uses Apple's standard URLSession with App Transport Security enforced (HTTPS, TLS 1.2+).
+Vault makes outbound HTTPS requests only to URLs you explicitly provide. All network traffic uses Apple's standard URLSession with App Transport Security enforced (HTTPS, TLS 1.2+). No requests are sent to servers operated by the developer.
 
 ## Children's privacy
 
